@@ -1,4 +1,4 @@
-const ROADMAP_LIST = [
+export const ROADMAP_LIST = [
     {
         phase: "Phase 1",
         title:"Community Building",
@@ -41,7 +41,7 @@ const ROADMAP_LIST = [
     }
 ]
 
-const FAQS_LIST = [
+export const FAQS_LIST = [
     "What is an NFT?",
     "How do I get an NFT?",
     "How much is a Hustlin' Hardo NFT?",
