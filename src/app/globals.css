@@ -5,6 +5,22 @@
   font-family: "Noto Serif", sans-serif;
 }
 
+@font-face {
+  font-family: 'modernofb';
+  src: url('/assets/fonts/ModernoFB-Regular.otf'),
+}
+
+.font-modernofb {
+  font-family: 'modernofb';
+}
+
+body {
+  background-image: url('/assets/images/webp/body-bg-img.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ====================================== Hero Class ============================================== */
 @keyframes marquee {
   0% {
     transform: translateX(0);
@@ -24,3 +40,17 @@
 .whitespace-nowrap {
   white-space: nowrap;
 }
+
+.text-yellow {
+  color: #FFD600;
+}
+
+.bg-yellow {
+  background-color: #FFD600;
+}
+
+.text-red {
+  color: #FF1300;
+}
+
+/* ====================================== Hero Class ============================================== */
