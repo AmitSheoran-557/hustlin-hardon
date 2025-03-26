@@ -13,7 +13,7 @@ const Team = () => {
             </div>
             <div className="bg-black md:h-[2px] h-[1px] w-full"></div>
             <div className="mx-auto max-w-[1172px] w-full">
-                <CommonSlider slidesPerView={2} cardData={TEAM_CARDS_DATA_LIST} profileImgClass={"!block lg:mb-4 mb-3"} titleCustomClass="lg:!mb-4 text-brown !mb-3" readButton="!hidden" customContent='!text-center !max-w-[407px]' customClass="!max-w-[570px] !items-center lg:!h-[326px] !h-[280px] bg-[url(/assets/images/webp/team-card-bg-img.webp)] bg-cover bg-no-repeat" />
+                <CommonSlider slidesPerView={2} cardData={TEAM_CARDS_DATA_LIST} profileImgClass={"!block lg:mb-4 mb-3"} titleCustomClass="lg:!mb-4 text-brown !mb-1" readButton="!hidden" customContent='!text-center !max-w-[407px]' customClass="!max-w-[570px] !items-center lg:!h-[326px] !h-[280px] bg-[url(/assets/images/webp/team-card-bg-img.webp)] bg-cover bg-no-repeat" />
             </div>
             <div className="bg-black md:h-[2px] h-[1px] w-full"></div>
         </div>

@@ -8,7 +8,7 @@ export const ROADMAP_LIST = [
     },
     {
         phase: "Phase 2",
-        title:"minting event",
+        title:"Minting Event",
         description:"Hustlin’ Hardos can be minted and are revealed to the world. There will only ever be 9,999 Hustlin’ Hardos, so this is your chance to get your hands on this unique collectible item, which will become an integral part of your online identity"
     },
     {
@@ -18,7 +18,7 @@ export const ROADMAP_LIST = [
     },
     {
         phase: "Phase 4",
-        title:"no-loss gambling",
+        title:"No-Loss Gambling",
         description:"Each week, we will organize free to enter no-loss gambling, with 25% of royalties being distributed as prize pool in events such as marble races or blackjack/poker tournaments. Imagine being able to bet on your Hustlin’ Hardo in a virtual foot race against your friend’s hardos. Since those events are free to enter, you can’t lose anything - but you can win BIG!"
     },
     {
@@ -28,17 +28,17 @@ export const ROADMAP_LIST = [
     },
     {
         phase: "Phase 6",
-        title:"metaverse integrations",
+        title:"Metaverse Integrations",
         description:"Both our personal and professional lives are increasingly moving online. Your Huslin’ Hardo will become your gateway to this new reality, acting as your 3D avatar in the metaverse"
     },
     {
         phase: "Phase 7",
-        title:"future developments",
+        title:"Future Developments",
         description:"It wouldn’t make sense to build one of the best online communities and not actively listen to its suggestions. As such, we also plan to execute against some community-generated ideas, delivering against the priorities of those who made Hustlin’ Hardos a success"
     },
     {
         phase: "Phase 8",
-        title:"swapping individual attributes",
+        title:"Swapping Individual Attributes",
         description:"Building a wardrobe app where you can secondary sales"
     }
 ]
