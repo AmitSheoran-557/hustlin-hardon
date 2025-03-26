@@ -15,13 +15,13 @@ const Roadmap = () => {
                     
                     </div>
                     <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%]' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
-                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] max-[1100px]:top-93 top-88' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
-                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] max-[1100px]:top-144 top-133' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
-                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] max-[1100px]:top-212 top-196' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
-                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] max-[1100px]:top-273 top-253' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
-                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] max-[1100px]:top-322 top-298' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
-                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] max-[1100px]:top-367 top-337' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
-                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] max-[1100px]:top-416 top-382' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
+                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] top-93' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
+                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] top-144' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
+                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] top-212' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
+                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] top-273' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
+                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] top-322' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
+                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] top-367' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
+                    <Image className='max-[1100px]:hidden absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] top-416' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon'/>
                     <Image className='absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%] max-[1100px]:top-459.5 top-427.5' width={10} height={20} src="/assets/images/webp/arrow.webp" alt='arrpw icon'/>
                     {ROADMAP_LIST.map((item, index) => {
                         let className = 'max-w-[495px] max-[1100px]:max-w-[800px]';
