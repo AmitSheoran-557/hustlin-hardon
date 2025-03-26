@@ -56,7 +56,7 @@ export const HEADER_SOCIAL_DATA = [
     {
         iconImage: '/assets/images/webp/header-social-icon-1.webp',
         alt: "discord-icon",
-        link: 'https://www.facebook.com/'
+        link: 'https://discord.com/'
     },
     {
         iconImage: '/assets/images/webp/header-social-icon-2.webp',
