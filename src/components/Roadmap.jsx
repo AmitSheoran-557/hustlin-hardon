@@ -4,7 +4,7 @@ import CustomHeading from './common/CustomHeading';
 
 const Roadmap = () => {
     return (
-        <div className='bg-[#F8F3E4]'>
+        <div>
             <div className='max-w-[1140px] mx-auto'>
 
                 <CustomHeading title="RoadMap" customClass="!py-[88px]" />

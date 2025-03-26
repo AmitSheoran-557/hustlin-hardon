@@ -11,7 +11,7 @@ const FAQ = () => {
     };
 
     return (
-        <div className="faq-container bg-[#F9F3E5]">
+        <div className="">
             <div className='max-w-[1140px] mx-auto'>
                 <CustomHeading customClass="!py-[88px]" title="Faqs" />
             </div>
