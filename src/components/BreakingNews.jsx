@@ -25,7 +25,7 @@ const BreakingNews = () => {
                         </div>
                     </div>
                     <div className="lg:w-6/12 w-full flex justify-center lg:pt-0 pt-6">
-                        <Image className='xl:max-w-[570px] xl:h-[572px] lg:max-w-lg max-w-md w-full lg:border-black lg:border-l-2 lg:border-r-2' src='/assets/images/webp/breaking-news-man-img.webp' width={570} height={572} alt='breaking-news' />
+                        <Image className='xl:max-w-[570px] xl:h-[570px] lg:max-w-lg max-w-md w-full lg:border-black lg:border-l-2 lg:border-r-2' src='/assets/images/webp/breaking-news-man-img.webp' width={570} height={572} alt='breaking-news' />
                     </div>
                 </div>
             </div>

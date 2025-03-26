@@ -38,7 +38,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className="px-4 max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] mx-auto lg:pt-2 pt-1.5 lg:pb-4 pb-3  flex justify-end">
+            <div className="px-4 max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] mx-auto lg:pt-2 pt-1.5 lg:pb-3.5 pb-3  flex justify-end">
                 <div className="flex items-center overflow-hidden lg:max-w-[658px] w-full justify-between">
                     <div className="flex items-center">
                         <Link className='lg:text-2xl md:text-xl text-lg !leading-[100%] font-modernofb' href="/">Hustlin' Hardos</Link>

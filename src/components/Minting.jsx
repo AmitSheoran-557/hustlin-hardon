@@ -40,9 +40,9 @@ const Minting = () => {
     return (
         <>
             <div className="max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] px-4 mx-auto">
-                <CustomHeading customClass='text-start !leading-[104%] xl:pb-[89px] lg:pb-14 md:pb-8 pb-6 xl:pt-[89px] lg:pt-16 md:pt-14 pt-12' title='Minting' />
+                <CustomHeading customClass='text-start lg:!leading-[100%] xl:pb-[89px] lg:pb-14 md:pb-8 pb-6 xl:pt-[89px] lg:pt-16 md:pt-14 pt-12' title='Minting' />
             </div>
-            <div className='flex flex-col w-full justify-center items-center xl:pb-[89px] lg:pb-14 pb-12'>
+            <div className='flex flex-col w-full justify-center items-center'>
                 <div className="bg-black md:h-[2px] h-[1px] w-full"></div>
                 <div className="max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] px-4 mx-auto">
                     <div className="flex flex-wrap justify-center items-center lg:border-black lg:border-l-2">
@@ -62,7 +62,7 @@ const Minting = () => {
                             </div>
                         </div>
                         <div className="lg:w-6/12 w-full flex justify-center lg:pt-0 pt-6">
-                            <Image className='xl:max-w-[570px] xl:h-[567px] lg:max-w-lg max-w-md w-full lg:border-black lg:border-l-2 lg:border-r-2' src='/assets/images/webp/breaking-news-man-img.webp' width={570} height={572} alt='breaking-news' />
+                            <Image className='xl:max-w-[570px] xl:h-[567px] lg:max-w-lg max-w-md w-full border-black max-lg:border-t-2 border-l-2 border-r-2' src='/assets/images/webp/breaking-news-man-img.webp' width={570} height={572} alt='breaking-news' />
                         </div>
                     </div>
                 </div>
