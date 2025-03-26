@@ -8,7 +8,7 @@ export const metadata = {
     description: "BREAKING NEWS: Hustlin Hardos set to launch the most anticipated NFT project of 2022 ",
     images: [
       {
-        url: "/ meta-image.png",
+        url: "/meta-image.png",
         width: 800,
         height: 600,
       },

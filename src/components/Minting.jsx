@@ -7,7 +7,7 @@ import { MINTING_ITEMS_DATA } from '@/utils/helper';
 
 const Minting = () => {
     const [timeRemaining, setTimeRemaining] = useState(40 * 3600 + 15 * 60 + 12 * 1 + 10);
-    const [counter, setCounter] = useState(0);
+    const [counter, setCounter] = useState(100);
 
     const formatTime = (seconds) => {
         const hours = Math.floor(seconds / 3600);
