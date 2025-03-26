@@ -19,7 +19,7 @@ const Roadmap = () => {
                     <Image className='max-lg:hidden absolute left-1/2 max-lg:left-10 translate-x-[-50%] max-[1100px]:top-120 top-115' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon' />
                     <Image className='max-lg:hidden absolute left-1/2 max-lg:left-10 translate-x-[-50%] max-[1100px]:top-164 top-154' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon' />
                     <Image className='max-lg:hidden absolute left-1/2 max-lg:left-10 translate-x-[-50%] max-[1100px]:top-233 top-217' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon' />
-                    <Image className='max-lg:hidden absolute left-1/2 max-lg:left-10 translate-x-[-50%] max-[1100px]:top-283 top-262' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon' />
+                    <Image className='max-lg:hidden absolute left-1/2 max-lg:left-10 translate-x-[-50%] max-[1100px]:top-278 top-256' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon' />
                     <Image className='max-lg:hidden absolute left-1/2 max-lg:left-10 translate-x-[-50%] max-[1100px]:top-327 top-307' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon' />
                     <Image className='max-lg:hidden absolute left-1/2 max-lg:left-10 translate-x-[-50%] max-[1100px]:top-367 top-347' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon' />
                     {ROADMAP_LIST.map((item, index) => {
@@ -56,7 +56,7 @@ const Roadmap = () => {
 
                         return (
                             <div key={index} className={className}>
-                                <div className={`${index===1 ?"lg:!-mt-29":index===3 ?"lg:!-mt-29":index===5 ?"lg:!-mt-5":index===7 ?"lg:!-mt-10":""}`}>
+                                <div className={`${index===1 ?"lg:!-mt-29":index===3 ?"lg:!-mt-29":index===5 ?"lg:!-mt-10":index===7 ?"lg:!-mt-10":""}`}>
                                 <Image className='lg:hidden max-[1100px]:max-w-12 max-md:max-w-[40px] absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%]' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon' />
                                 <p className='text-sm'>{item.phase}</p>
                                 <h2 className='text-4xl min-[1100px]:mt-[10px] max-md:text-3xl max-sm:text-xl font-semibold'>{item.title}</h2>
