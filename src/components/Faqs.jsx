@@ -12,23 +12,23 @@ const FAQ = () => {
 
     return (
         <div className="">
-            <div className='max-w-[1140px] mx-auto'>
-                <CustomHeading customClass="!py-[88px]" title="Faqs" />
+            <div className='max-w-[1140px] px-4 mx-auto'>
+                <CustomHeading customClass="!py-[88px] max-lg:!py-15 max-sm:!py-10" title="Faqs" />
             </div>
             <div className='w-full border-t-2 border-b-2 border-black px-4'>
                 <div className="faq-list max-w-[1140px] mx-auto border-l-2 border-r-2">
                     {FAQS_LIST.map((item, index) => (
-                        <div key={index} className="faq-item border-b-2 border-black pl-[30px] pr-11 py-8">
+                        <div key={index} className="faq-item border-b-2 border-black pl-[30px] pr-11 max-md:px-4 py-8 max-md:py-5">
                             <div
-                                className="faq-header flex justify-between cursor-pointer"
+                                className="faq-header flex gap-5 justify-between cursor-pointer"
                                 onClick={() => toggleFAQ(index)}
                             >
-                                <h2 className="text-2xl font-medium">{item}</h2>
+                                <h2 className="text-2xl max-md:text-xl font-medium">{item}</h2>
                                 {openIndex === index ? '-' : '+'}
                             </div>
                             <div
-                                className={`faq-answer overflow-hidden transition-all duration-500 ease-in-out
-                                ${openIndex === index ? 'max-h-[1000px]' : 'max-h-0'}
+                                className={`faq-answer overflow-hidden transition-all duration-1000 ease-linear
+                                ${openIndex === index ? 'max-h-[500px]' : 'max-h-0'}
                             `}
                             >
                                 {openIndex === index && (

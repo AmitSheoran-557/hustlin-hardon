@@ -65,9 +65,12 @@ body {
 .whitespace-nowrap {
   white-space: nowrap;
 }
+<<<<<<< HEAD
 
 /* ================================= */
 .swiper-slide{
   display: flex !important;
   justify-content: center !important;
 }
+=======
+>>>>>>> a9bcd0d100ba5878d74a34a62c630b195cb171a8
