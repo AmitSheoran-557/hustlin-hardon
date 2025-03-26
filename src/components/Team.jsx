@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const Team = () => {
     return (
-        <div className='xl:pb-[89px] lg:pb-14 md:pb-8 pb-6 xl:pt-[89px] lg:pt-14 pt-12'>
+        <div className='xl:py-[89px] lg:py-14 py-12'>
             <div className="max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] px-4 mx-auto">
                 <CustomHeading customClass='xl:pb-[89px] lg:pb-14 md:pb-8 pb-6 !leading-[104%]' title='Team' />
             </div>

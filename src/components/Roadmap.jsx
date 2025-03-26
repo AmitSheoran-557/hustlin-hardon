@@ -7,7 +7,7 @@ const Roadmap = () => {
     return (
         <div>
             <div className='max-w-[1140px] mx-auto px-4'>
-                <CustomHeading title="RoadMap" customClass="!py-[88px] max-lg:!py-15 max-sm:!py-10" />
+                <CustomHeading title="RoadMap" customClass="xl:pt-[88px] lg:pt-14 pt-12 xl:pb-[89px] lg:pb-14 md:pb-8 pb-6" />
             </div>
             <div className='line w-full border-t-2 border-b-2 border-black px-4'>
                 <div className='max-w-[1140px] relative py-[99px] max-lg:py-18 max-md:py-10 mx-auto border-r-2 border-l-2 pl-9 max-sm:pr-3 max-[1100px]:pl-20 max-[1100px]:gap-5 flex flex-col  border-black'>
