@@ -57,7 +57,7 @@ const Roadmap = () => {
                         return (
                             <div key={index} className={className}>
                                 <div className={`${index===1 ?"min-[1100px]:!-mt-29":index===3 ?"min-[1100px]:!-mt-29":index===5 ?"min-[1100px]:!-mt-5":index===7 ?"min-[1100px]:!-mt-10":""}`}>
-                                <Image className='min-[1100px]:hidden max-md:max-w-[40px] absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%]' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon' />
+                                <Image className='min-[1100px]:hidden max-[1100px]:max-w-12 max-md:max-w-[40px] absolute left-1/2 max-[1100px]:left-10 translate-x-[-50%]' width={59} height={59} src="/assets/images/webp/faq-icon.webp" alt='faq icon' />
                                 <p className='text-sm'>{item.phase}</p>
                                 <h2 className='text-4xl min-[1100px]:mt-[10px] max-md:text-3xl max-sm:text-xl font-semibold'>{item.title}</h2>
                                 <p className='min-[1100px]:mt-3 max-sm:text-sm'>{item.description}</p>
