@@ -64,10 +64,10 @@ body {
 
 .whitespace-nowrap {
   white-space: nowrap;
-<<<<<<< HEAD
 }
 
-/* ====================================== Hero Class ============================================== */
-=======
+/* ================================= */
+.swiper-slide{
+  display: flex !important;
+  justify-content: center !important;
 }
->>>>>>> 09b0563571a4e9e0fe8a4a2aae21e07426f92753

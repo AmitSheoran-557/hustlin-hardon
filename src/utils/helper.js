@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 import { TwitterIcon } from "./icons";
 
-=======
 export const ROADMAP_LIST = [
     {
         phase: "Phase 1",
@@ -54,7 +52,6 @@ export const FAQS_LIST = [
     "How many Hustlin' Hardos NFTs will there be?",
     "What is the utility and functionality of a Hustlin' Hardo NFT?"
 ]
->>>>>>> 09b0563571a4e9e0fe8a4a2aae21e07426f92753
 export const HEADER_SOCIAL_DATA = [
     {
         iconImage: '/assets/images/webp/header-social-icon-1.webp',
