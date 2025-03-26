@@ -37,27 +37,29 @@ const Header = () => {
                     ))}
                 </div>
             </div>
+           
             <div className="px-4 max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] mx-auto lg:pt-2 pt-1.5 lg:pb-4 pb-3  flex justify-end">
                 <div className="flex items-center overflow-hidden lg:max-w-[658px] w-full justify-between">
                     <div className="flex items-center">
                         <Link className='lg:text-2xl md:text-xl text-lg !leading-[100%] font-modernofb' href="/">Hustlin' Hardos</Link>
                     </div>
                     <div className="flex gap-5 items-center">
-                        <div className="flex xl:gap-[18px] lg:gap-4 gap-3">
+                        <div className="flex xl:gap-[18px] lg:gap-4 gap-3  max-sm:hidden">
                             {HEADER_SOCIAL_DATA.map((social, index) => (
                                 <Link key={index} href={social.link}>
-                                    <Image className='lg:max-w-6 max-w-5' src={social.iconImage} width={24} height={24} alt="social-icon" />
+                                    <Image className='lg:max-w-6 max-w-5' src={social.iconImage} width={24} height={24} alt={social.alt} />
                                 </Link>
                             ))}
                         </div>
-                        <button className='lg:text-sm text-xs cursor-pointer hover:!bg-transparent transition-all ease-liner duration-300 lg:px-4 px-3 lg:py-3 py-2 bg-yellow font-semibold uppercase border-[2px] border-black'>Connect Wallet</button>
+                        <button className='lg:text-sm text-xs cursor-pointer hover:!bg-black hover:text-white transition-all ease-liner duration-300 lg:px-4 px-3 lg:py-3 py-2 bg-yellow font-semibold uppercase border-[2px] border-black'>Connect Wallet</button>
                     </div>
                 </div>
             </div>
+            
             <div className="bg-black md:h-[2px] h-[1px] w-full"></div>
             <div className='flex justify-center items-center'>
                 {HEADER_LINKS_DATA.map((link, index) => (
-                    <Link className={`!leading-[100%] lg:text-base lg:h-[38px] md:h-8 h-7 flex items-center sm:text-sm text-xs uppercase lg:px-6 md:px-5 px-3 md:border-l-[2px] border-l-[1px] border-black ${index === 4 ? 'md:!border-r-[2px] !border-r-[1px] border-black' : ''}`} target='_blank' key={index} href={link.link}>{link.name}</Link>
+                    <Link className={`!leading-[100%] whitespace-nowrap hover:bg-black hover:text-white transition-all ease-liner duration-300 lg:text-base lg:h-[38px] md:h-8 h-7 flex items-center sm:text-sm text-xs uppercase lg:px-6 md:px-5 px-3 md:border-l-[2px] border-l-[1px] border-black ${index === 4 ? 'md:!border-r-[2px] !border-r-[1px] border-black' : ''}`} target='_blank' key={index} href={link.link}>{link.name}</Link>
                 ))}
             </div>
             <div className="bg-black md:h-[2px] h-[1px] w-full"></div>

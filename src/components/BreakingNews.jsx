@@ -5,9 +5,9 @@ import Image from 'next/image'
 
 const BreakingNews = () => {
     return (
-        <div className='flex flex-col w-full justify-center items-center xl:pt-[67px] lg:pt-14 pt-12 xl:pb-[89px] lg:pb-14 pb-12'>
+        <div className='flex flex-col w-full justify-center items-center xl:pt-[67px] lg:pt-14 pt-12'>
             <div className="max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] px-4 mx-auto">
-                <CustomHeading customClass='text-center xl:!text-[72px] !leading-[140%] xl:pb-16 lg:pb-10 md:pb-8 pb-6' title='“BREAKING NEWS: Hustlin Hardos set to launch the most anticipated NFT project of 2022"' />
+                <CustomHeading customClass='text-start font-medium xl:!text-[72px] !leading-[130%] xl:pb-16 lg:pb-10 md:pb-8 pb-6' title='“BREAKING NEWS: Hustlin Hardos set to launch the most anticipated NFT project of 2022"' />
 
             </div>
             <div className="bg-black md:h-[2px] h-[1px] w-full"></div>

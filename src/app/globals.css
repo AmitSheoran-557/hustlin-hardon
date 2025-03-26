@@ -2,12 +2,12 @@
 @import "tailwindcss";
 
 * {
-  font-family: "Noto Serif", sans-serif;
+  font-family: "Noto Serif", serif;
 }
 
 @font-face {
   font-family: 'modernofb';
-  src: url('/assets/fonts/ModernoFB-Regular.otf'),
+  src: url('/assets/fonts/modernofbcomp-bold.otf'),
 }
 
 .font-modernofb {
@@ -18,6 +18,31 @@ body {
   background-image: url('/assets/images/webp/body-bg-img.webp');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* ====================================== Colors Class ============================================== */
+.text-yellow {
+  color: #FFD600;
+}
+
+.bg-yellow {
+  background-color: #FFD600;
+}
+
+.text-red {
+  color: #FF1300;
+}
+
+.text-red-2 {
+  color: #FF0000;
+}
+
+.text-green {
+  color: #00A106;
+}
+
+.text-brown {
+  color: #70675F;
 }
 
 /* ====================================== Hero Class ============================================== */
@@ -39,18 +64,6 @@ body {
 
 .whitespace-nowrap {
   white-space: nowrap;
-}
-
-.text-yellow {
-  color: #FFD600;
-}
-
-.bg-yellow {
-  background-color: #FFD600;
-}
-
-.text-red {
-  color: #FF1300;
 }
 
 /* ====================================== Hero Class ============================================== */
