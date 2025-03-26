@@ -71,3 +71,12 @@ body {
   display: flex !important;
   justify-content: center !important;
 }
+
+.line::after{
+  content: "∨";
+  position: absolute;
+  bottom: -10px;
+  font-size: 20px;
+  font-weight: 800;
+  left: -5px;
+}
