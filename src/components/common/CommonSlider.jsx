@@ -58,7 +58,6 @@ const CommonSlider = ({ slidesPerView = 3, cardData, customClass, readButton, cu
                 </button>
                 <button className="custom-next-button cursor-pointer text-black" onClick={() => swiperRef.current.swiper.slideNext()}>
                     <Image className='lg:min-w-6 md:min-w-5 max-w-4' src="/assets/images/webp/next-arrow-img.webp" width={24} height={36} alt='prev-arrow-img' />
-
                 </button>
             </div>
         </div>
