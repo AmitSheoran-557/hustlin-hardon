@@ -10,17 +10,18 @@ const Faqs = () => {
     };
     return (
         <div id='faq'>
-            <div className='max-w-[1140px] mx-auto xl:pb-[89px] lg:pb-14 pb-12'>
+            <div className='max-w-[1172px] px-4 mx-auto xl:pb-[89px] lg:pb-14 pb-12'>
             <CustomHeading title="Faqs"/>
             </div>
             <div className="border-t-2 border-b-2 border-black">
+                <div className='px-4'>
                 <div className="max-w-[1140px] flex flex-col border-r-2 border-l-2 border-black mx-auto">
                     {FAQS_LIST.map((item, index) => (
                         <div
                             key={index}
-                            className={`pt-8 pb-[43px] pl-[30px] pr-11 ${active === index ? '!pb-6' : ''} border-b-2 border-black ${index === 6 ? '!border-b-0' : ''}`}
+                            className={`pt-8 max-lg:py-7 max-md:py-6 max-sm:py-5 pb-[43px] pl-[30px] pr-11 max-lg:px-5 ${active === index ? '!pb-6 max-md:!pb-5' : ''} border-b-2 border-black ${index === 6 ? '!border-b-0' : ''}`}
                         >
-                            <button onClick={() => toggle(index)} className='cursor-pointer flex w-full text-black justify-between max-sm:gap-4 bg-transparent items-center text-left max-sm:text-base font-medium text-2xl max-md:text-lg' >
+                            <button onClick={() => toggle(index)} className='cursor-pointer flex w-full text-black justify-between max-sm:gap-4 bg-transparent text-left max-sm:text-base font-medium text-2xl max-md:text-lg' >
                                 {item}{" "}
                                 <span className='text-2xl font-semibold'>
                                     {active === index ? "-" : "+"}
@@ -31,6 +32,7 @@ const Faqs = () => {
                             </p>
                         </div>
                     ))}
+                </div>
                 </div>
             </div>
         </div>
