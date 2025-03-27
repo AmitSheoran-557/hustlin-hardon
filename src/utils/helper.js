@@ -82,13 +82,13 @@ export const HEADER_SOCIAL_DATA = [
     },
     {
         iconImage: '/assets/images/webp/header-social-icon-4.webp',
-        alt: "m-icon",
-        link: 'https://www.linkedin.com/'
+        alt: "medium-icon",
+        link: 'https://medium.com/'
     },
     {
         iconImage: '/assets/images/webp/header-social-icon-5.webp',
-        alt: "sea-icon",
-        link: 'https://www.youtube.com/'
+        alt: "open-sea-icon",
+        link: 'https://opensea.io/'
     },
 ];
 

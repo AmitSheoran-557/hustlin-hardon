@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Roadmap = () => {
     return (
         <div id='roadmap'>
-            <div className='max-w-[1140px] mx-auto px-4'>
+            <div className='max-w-[1172px] mx-auto px-4'>
                 <CustomHeading title="RoadMap" customClass="xl:pt-[88px] lg:pt-14 pt-12 xl:pb-[89px] lg:pb-14 md:pb-8 pb-6" />
             </div>
             <div className='w-full border-t-2 border-b-2 border-black px-4'>
