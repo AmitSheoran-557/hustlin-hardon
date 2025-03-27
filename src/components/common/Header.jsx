@@ -1,20 +1,9 @@
-import { HEADER_LINKS_DATA, HEADER_SOCIAL_DATA } from '@/utils/helper';
+import { HEADER_LINKS_DATA, HEADER_SOCIAL_DATA, MARKET_DATA_LIST } from '@/utils/helper';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
 const Header = () => {
-    const MARKET_DATA_LIST = [
-        { name: 'S&P', change: '-1.01%', color: 'text-red' },
-        { name: 'Shanghai', change: '+0.87%', color: 'text-yellow' },
-        { name: 'FTSE 100', change: '+0.13%', color: 'text-yellow' },
-        { name: 'ASD 100', change: '+0.13%', color: 'text-yellow' },
-        { name: 'Brent Crude Oil', change: '-0.24%', color: 'text-red' },
-        { name: 'DSC', change: '-0.24%', color: 'text-red' },
-        { name: 'AXD 100', change: '+0.13%', color: 'text-yellow' },
-        { name: 'Euro/Dollar', change: '+0.02%', color: 'text-yellow' },
-    ];
-
     return (
         <>
             <div className="bg-black lg:py-[13.4px] md:py-3 py-2 flex items-center overflow-hidden max-w-[1920px] mx-auto">
@@ -37,7 +26,6 @@ const Header = () => {
                     ))}
                 </div>
             </div>
-
             <div className="px-4 max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] mx-auto lg:pt-2 pt-1.5 lg:pb-3.5 pb-3  flex justify-end">
                 <div className="flex items-center overflow-hidden lg:max-w-[658px] w-full justify-between">
                     <div className="flex items-center">

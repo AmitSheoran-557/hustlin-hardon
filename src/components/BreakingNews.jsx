@@ -5,13 +5,13 @@ import Image from 'next/image'
 
 const BreakingNews = () => {
     return (
-        <div className='flex flex-col w-full justify-center items-center xl:pt-[67px] lg:pt-14 pt-12'>
+        <div id='about' className='flex flex-col w-full justify-center items-center xl:pt-[67px] lg:pt-14 pt-12'>
             <div className="max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] px-4 mx-auto">
                 <CustomHeading customClass='text-start max-lg:text-center font-medium xl:!text-[72px] !leading-[140%] xl:pb-16 lg:pb-10 md:pb-8 pb-6' title='“BREAKING NEWS: Hustlin Hardos set to launch the most anticipated NFT project of 2022"' />
 
             </div>
             <div className="bg-black md:h-[2px] h-[1px] w-full"></div>
-            <div className="max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] px-4 mx-auto">
+            <div className="max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] w-full px-4 mx-auto">
                 <div className="flex flex-wrap justify-center items-center lg:border-black lg:border-l-2">
                     <div className="lg:w-6/12 w-full lg:pt-0 pt-6 lg:pe-4">
                         <div className="lg:max-w-[475px] w-full xl:ms-10 lg:ms-7 flex flex-col">

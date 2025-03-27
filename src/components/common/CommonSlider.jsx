@@ -44,7 +44,7 @@ const CommonSlider = ({ slidesPerView = 3, cardData, customClass, readButton, cu
                                 <p>{date}</p>
                             </div>
                             <p className={`lg:text-base text-sm max-w-[327px] lg:mb-4 mb-3 ${customContent}`}>{content}</p>
-                            <button className="relative cursor-pointer max-w-max group hover:text-red-600 transition-all ease-linear duration-100 text-black max-lg:text-center text-start lg:text-base text-sm">
+                            <button className={`${readButton} relative cursor-pointer max-w-max group hover:text-red-600 transition-all ease-linear duration-100 text-black max-lg:text-center text-start lg:text-base text-sm`}>
                                 Read More...
                                 <span className="absolute lg:bottom-1 bottom-0.5 group-hover:bg-red-600 left-0 w-full h-[0.8px] bg-black"></span>
                             </button>
@@ -52,7 +52,7 @@ const CommonSlider = ({ slidesPerView = 3, cardData, customClass, readButton, cu
                     </SwiperSlide>
                 ))}
             </Swiper>
-            <div className="flex justify-between lg:gap-14 md:gap-10 gap-7 absolute xl:-top-36 lg:-top-28 md:-top-20 -top-14 right-4">
+            <div className="flex justify-between lg:gap-14 md:gap-10 gap-7 absolute xl:-top-[154px] lg:-top-28 md:-top-20 -top-14 right-4">
                 <button className="custom-prev-button cursor-pointer text-black" onClick={() => swiperRef.current.swiper.slidePrev()}>
                     <Image className='lg:min-w-6 md:min-w-5 max-w-4' src="/assets/images/webp/prev-arrow-img.webp" width={24} height={36} alt='prev-arrow-img' />
                 </button>

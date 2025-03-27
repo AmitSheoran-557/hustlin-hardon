@@ -11,7 +11,7 @@ const FAQ = () => {
     };
 
     return (
-        <div className="">
+        <div id='faq' className="">
             <div className='max-w-[1140px] px-4 mx-auto'>
                 <CustomHeading customClass="xl:pb-[88px] lg:pb-14 md:pb-8 pb-6" title="Faqs" />
             </div>

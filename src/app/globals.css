@@ -3,6 +3,7 @@
 
 * {
   font-family: "Noto Serif", serif;
+  scroll-behavior: smooth;
 }
 
 @font-face {
