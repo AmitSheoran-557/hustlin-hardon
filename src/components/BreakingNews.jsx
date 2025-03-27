@@ -12,15 +12,14 @@ const BreakingNews = () => {
             </div>
             <div className="bg-black md:h-[2px] h-[1px] w-full"></div>
             <div className="max-[1600px]:max-w-[1920px] lg:max-w-[1172px] md:max-w-[1024px] max-w-[768px] px-4 mx-auto">
-
                 <div className="flex flex-wrap justify-center items-center lg:border-black lg:border-l-2">
                     <div className="lg:w-6/12 w-full lg:pt-0 pt-6 lg:pe-4">
                         <div className="lg:max-w-[475px] w-full xl:ms-10 lg:ms-7 flex flex-col">
                             <Description customClass='lg:mb-4 mb-3 !text-left max-lg:mx-auto' title='March 1, 2022 by Editor Hardo' />
                             <Description customClass='lg:mb-4 mb-3 lg:!text-lg !leading-[150%] max-w-3xl max-lg:text-center max-lg:mx-auto' title={`Hustlin' Hardos is a collection of 9,999 NFT characters on the Ethereum Blockchain, inspired by the business/ finance world, hustler culture and web3 aesthetics. Each Hustlin' Hardo is a completely original and unique combination of hundreds of potential attributes such as luxury watches, clothing, or accessories - all with provable degrees of rarity. The collection features truly unique and powerful artwork, while offering its holders first-of-its-kind utility. Your Huslin’ Hardo NFT is your gateway to The Boardroom, one of the most rewarding and engaging online communities`} />
-                            <button className="relative max-lg:mx-auto cursor-pointer max-w-max text-black max-lg:text-center text-start lg:text-base text-sm">
+                            <button className="relative max-lg:mx-auto group cursor-pointer hover:text-red-600 transition-all ease-linear duration-100 max-w-max text-black max-lg:text-center text-start lg:text-base text-sm">
                                 Read More...
-                                <span className="absolute lg:bottom-1 bottom-0.5 left-0 w-full h-[0.8px] bg-black"></span>
+                                <span className="absolute lg:bottom-1 group-hover:bg-red-600 bottom-0.5 left-0 w-full h-[0.8px] bg-black "></span>
                             </button>
                         </div>
                     </div>

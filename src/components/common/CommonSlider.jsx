@@ -37,16 +37,16 @@ const CommonSlider = ({ slidesPerView = 3, cardData, customClass, readButton, cu
                 {cardData.map(({ id, date, title, content, twitterIcon }) => (
                     <SwiperSlide key={id}>
                         <div className={`max-w-[380px] w-full lg:h-[259px] h-56 flex flex-col justify-center border-l-2 border-r-2 px-[25px] ${customClass}`}>
-                            <Image className={`hidden ${profileImgClass}`} src="/assets/images/webp/team-card-profile-img.webp" width={88} height={88} alt='profile-img' />
+                            <Image className={`hidden md:max-w-[88px] max-w-16 w-full ${profileImgClass}`} src="/assets/images/webp/team-card-profile-img copy.webp" width={88} height={88} alt='card-profile-img' />
                             <h3 className={`${titleCustomClass} xl:text-4xl lg:text-3xl text-2xl font-semibold lg:mb-3 mb-2`}>{title}</h3>
                             <div className="flex lg:gap-3 gap-2 lg:mb-3 mb-2 items-center">
                                 <Link href="https://twitter.com/" target="_blank"> {twitterIcon}</Link>
                                 <p>{date}</p>
                             </div>
                             <p className={`lg:text-base text-sm max-w-[327px] lg:mb-4 mb-3 ${customContent}`}>{content}</p>
-                            <button className="relative cursor-pointer max-w-max text-black max-lg:text-center text-start lg:text-base text-sm">
+                            <button className="relative cursor-pointer max-w-max group hover:text-red-600 transition-all ease-linear duration-100 text-black max-lg:text-center text-start lg:text-base text-sm">
                                 Read More...
-                                <span className="absolute lg:bottom-1 bottom-0.5 left-0 w-full h-[0.8px] bg-black"></span>
+                                <span className="absolute lg:bottom-1 bottom-0.5 group-hover:bg-red-600 left-0 w-full h-[0.8px] bg-black"></span>
                             </button>
                         </div>
                     </SwiperSlide>

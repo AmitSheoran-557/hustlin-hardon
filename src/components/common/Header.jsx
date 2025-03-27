@@ -46,7 +46,7 @@ const Header = () => {
                     <div className="flex gap-5 items-center">
                         <div className="flex xl:gap-[18px] lg:gap-4 gap-3 max-sm:hidden">
                             {HEADER_SOCIAL_DATA.map((social, index) => (
-                                <Link key={index} href={social.link}>
+                                <Link key={index} href={social.link} target='_blank'>
                                     <Image className='lg:max-w-6 max-w-5 hover:scale-125 transition-all ease-liner duration-300' src={social.iconImage} width={24} height={24} alt={social.alt} />
                                 </Link>
                             ))}
@@ -59,7 +59,7 @@ const Header = () => {
                 <div className="bg-black md:h-[2px] h-[1px] w-full"></div>
                 <div className='flex justify-center items-center'>
                     {HEADER_SOCIAL_DATA.map((social, index) => (
-                        <Link className={`border-l-[1px] border-black  ${index === 4 ? '!border-r-[1px] border-black' : ''} ${index === 0 ? '!border-l-[1px] border-black' : ''}`} key={index} href={social.link}>
+                        <Link className={`border-l-[1px] border-black  ${index === 4 ? '!border-r-[1px] border-black' : ''} ${index === 0 ? '!border-l-[1px] border-black' : ''}`} key={index} href={social.link} target='_blank'>
                             <Image className={`min-w-5 hover:scale-125 transition-all ease-liner duration-300 max-h-9 w-full px-[23.9px] flex justify-center py-1`} src={social.iconImage} width={24} height={24} alt={social.alt} />
                         </Link>
                     ))}

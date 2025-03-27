@@ -6,6 +6,7 @@ import Team from "@/components/Team";
 import Roadmap from "@/components/Roadmap";
 import BreakingNews from "@/components/BreakingNews";
 import Footer from "@/components/common/Footer";
+import BackToTop from "@/components/common/BackToTop";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Team />
       <FAQ/>
       <Footer/>
+      <BackToTop/>
     </>
   );
 }
