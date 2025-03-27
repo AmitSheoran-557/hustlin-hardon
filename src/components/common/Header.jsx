@@ -56,7 +56,7 @@ const Header = () => {
             <div className="bg-black md:h-[2px] h-[1px] w-full"></div>
             <div className='flex justify-center items-center'>
                 {HEADER_LINKS_DATA.map((link, index) => (
-                    <Link className={`!leading-[100%] whitespace-nowrap hover:bg-black hover:text-white transition-all ease-liner duration-300 lg:text-base lg:h-[38px] md:h-8 h-7 flex items-center sm:text-sm text-xs uppercase lg:px-6 md:px-5 px-3 md:border-l-[2px] border-l-[1px] border-black ${index === 4 ? 'md:!border-r-[2px] !border-r-[1px] border-black' : ''}`} target='_blank' key={index} href={link.link}>{link.name}</Link>
+                    <Link className={`!leading-[100%] whitespace-nowrap hover:bg-black hover:text-white transition-all ease-liner duration-300 lg:text-base lg:h-[38px] md:h-8 h-7 flex items-center sm:text-sm text-xs uppercase lg:px-6 md:px-5 px-3 md:border-l-[2px] border-l-[1px] border-black ${index === 4 ? 'md:!border-r-[2px] !border-r-[1px] border-black' : ''}`} target='_blank' key={index} href={link.link}>{link.title}</Link>
                 ))}
             </div>
             <div className="bg-black lg:h-[2px] h-[0.2px] w-full"></div>

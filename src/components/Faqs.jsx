@@ -8,18 +8,9 @@ const Faqs = () => {
         setActive(active === index ? null : index);
     };
     return (
-<<<<<<< HEAD
-        <div id='faq' className="">
-            <div className='max-w-[1140px] px-4 mx-auto'>
-                <CustomHeading customClass="xl:pb-[88px] lg:pb-14 md:pb-8 pb-6" title="Faqs" />
-            </div>
-            <div className='w-full border-t-2 border-b-2 border-black px-4'>
-                <div className="faq-list max-w-[1140px] mx-auto border-l-2 border-r-2">
-=======
         <div id='faq' className='px-4'>
             <div className="container pt-[210px] max-xl:pt-[170px] max-lg:pt-14 max-md:pt-10">
                 <div className="max-w-[1022px] mt-[60px] max-lg:mt-10 max-md:mt-7 flex flex-col gap-6 mx-auto">
->>>>>>> 710c744d09850e7986d843469e2e1579890f5d0f
                     {FAQS_LIST.map((item, index) => (
                         <div
                             key={index}
